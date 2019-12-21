@@ -1,0 +1,16 @@
+/*                                                        CSS's Solution */
+.container {
+  width: 500px;
+  height: 500px;
+}
+
+@media screen and (orientation: portrait) {
+  .container {
+    background-color: #f00;
+  }
+}
+@media screen and (orientation: landscape) {
+  .container {
+    background-color: #ff0;
+  }
+}
